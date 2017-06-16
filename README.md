@@ -19,3 +19,12 @@ Projeto MVC utilizando Spring com Mybatis e Jetty como servidor
 - Em Goals digitar: clean install jetty:run
 - Clicar em Run
 - Acessar localhost:8080.
+
+
+### Melhorias
+
+- Ajustar a parte visual, aplicar CSS, e  algumas melhorias de usabilidade.
+- Aplicar Logs.
+- Criar testes unitários.
+- Melhorar as consultas SQL.
+- Melhorar tratamentos de exceções.
