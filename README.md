@@ -1,30 +1,30 @@
 # spring-mybatis-jetty-mvc
-Projeto MVC utilizando Spring com Mybatis e Jetty como servidor
+MVC project using Spring with Mybatis and Jetty as server
 
-### Informações
-- Código fonte do projeto está em https://github.com/bsbeirao/spring-mybatis-jetty-mvc. 
-- Todas as dependências gerenciadas a partir do Repositório Maven.
-- Versão do Java utilizada 1.7.
-- A organização do projeto foi feito seguindo os conceitos MVC Spring. O banco configurado foi o Mysql. Foi utilizado o Jetty como servidor pela fácil configuração. MyBatis que elimina praticamente todo o código JDBC e a configuração manual. Na primeira tela tem uma breve apresentação e o link para abrir a listagem de usuários. 
+### Information
+- Project source code is at https://github.com/bsbeirao/spring-mybatis-jetty-mvc.
+- All dependencies managed from the Maven Repository.
+- Version of Java used 1.7.
+- The organization of the project was done following the concepts MVC Spring. The configured bank was Mysql. Jetty was used as a server for easy configuration. MyBatis that virtually eliminates all JDBC code and manual configuration. On the first screen you have a brief presentation and the link to open the user list.
 
-### Procedimento de criação de dados no banco:
-- Deve-se criar um banco Mysql. O script de criação das tabelas e inserção de dados está na pasta raiz do projeto(SQL.sql).
-- No arquivo /src/main/resources/jdbc.properties deve ser configurado o banco antes de subir a aplicação.
+### Procedure for creating data in the database:
+- You should create a Mysql bank. The table creation and insertion data script is in the project root folder (SQL.sql).
+- The /src/main/resources/jdbc.properties file must be configured before uploading the application.
 
-### Procedimento de importação e execução:
-- Baixar o código do github com o comando no terminal: git clone https://github.com/bsbeirao/spring-mybatis-jetty-mvc.git
-- Importar o projeto na IDE Eclipse: File/Import.../Existing Maven Projects. 
-- Com o projeto importado, executar o Maven install.
-- Clicar com o botão direito no projeto: Run as/Maven build...
-- Em Goals digitar: clean install jetty:run
-- Clicar em Run
-- Acessar localhost:8080.
+### Import and Execution Procedure:
+- Download the github code with the command in the terminal: git clone https://github.com/bsbeirao/spring-mybatis-jetty-mvc.git
+- Import the project into the Eclipse IDE: File / Import ... / Existing Maven Projects.
+- With the project imported, run Maven install.
+- Right click on the project: Run as / Maven build ...
+- In Goals type: clean install jetty: run
+- Click Run
+- Access localhost: 8080.
 
 
-### Melhorias
+### Improvements
 
-- Ajustar a parte visual, aplicar CSS, e  algumas melhorias de usabilidade.
-- Aplicar Logs.
-- Criar testes unitários.
-- Melhorar as consultas SQL.
-- Melhorar tratamentos de exceções.
+- Adjust the visual part, apply CSS, and some usability improvements.
+- Apply Logs.
+- Create unit tests.
+- Improve SQL queries.
+- Improve exception treatments.
