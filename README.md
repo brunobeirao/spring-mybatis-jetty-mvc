@@ -8,7 +8,7 @@ MVC project using Spring with Mybatis and Jetty as server
 - The organization of the project was done following the concepts MVC Spring. The configured bank was Mysql. Jetty was used as a server for easy configuration. MyBatis that virtually eliminates all JDBC code and manual configuration. On the first screen you have a brief presentation and the link to open the user list.
 
 ### Procedure for creating data in the database:
-- You should create a Mysql bank. The table creation and insertion data script is in the project root folder (SQL.sql).
+- You should create a Mysql database. The table creation and insertion data script is in the project root folder (SQL.sql).
 - The /src/main/resources/jdbc.properties file must be configured before uploading the application.
 
 ### Import and Execution Procedure:
